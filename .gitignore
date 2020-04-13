@@ -1,0 +1,6 @@
+dist
+**/Build
+**/node_modules
+*cache
+**/.unsaved
+**/.user
