@@ -8,7 +8,8 @@ How to use this project
 ===
 ```sh
 npm install
-npm start```
+npm start
+```
 
 This will start a webpack server with live reloading
 
