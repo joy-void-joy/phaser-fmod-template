@@ -29,6 +29,9 @@ class Game extends Phaser.Scene
     {
       // Start the music here!
       this.music.start()
+      // We shuffle the playlist to have an AB structure
+      const times = [0, 1, 2]
+      times.map(() => this.music.start())
 
       this.add.existing(new Player(this, this.music))
 
