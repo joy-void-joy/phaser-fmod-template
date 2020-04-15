@@ -2,6 +2,7 @@ import 'phaser'
 import {Game} from './game'
 // You can change fmodstudio to fmodstudioL to have debugging info
 import FMODModule, {FMOD as FMOD_} from './lib/fmodstudio'
+import {STUDIO_INITFLAGS, INITFLAGS, STUDIO_LOAD_BANK_FLAGS} from './lib/fmod_const'
 
 /*** Main game ***/
 const config =

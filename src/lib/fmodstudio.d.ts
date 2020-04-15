@@ -35,10 +35,6 @@ export interface FMOD {
      */
     Debug_Initialize?(flags: FMOD.DEBUG_FLAGS): FMOD.RESULT;
 
-    STUDIO_INIT_NORMAL?: number,
-    INIT_NORMAL?: number,
-    STUDIO_LOAD_BANK_NORMAL?: number,
-
     /**
      * Helper function to close a file manually, that is preloaded with FMOD.FS_createPreloadedFile
      * @param handle 
